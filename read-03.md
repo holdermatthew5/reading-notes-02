@@ -18,3 +18,8 @@
 - display changes whether an element behaves like a block or an inline element. Maybe I can use inline to make the h1 tag on my site actually center with the images vertically??? nope...
 - block makes an inline element behave like a block, inline block makes a block move to inline while retaining block characteristics.
 - visibility doesn't remove the box of an element but does hide the content with the value set to hidden, while display with a vlue none hides the boc and its content allowing other elements to take it's place
+- if/else statements - if `if` evaluates true it runs its block of code. I it evaluates false it moves on to `else if`. if `else if` evaluates false it moves on to `else`. else if and else are not mandatory to have an if statement and the number of else if is technically infinite.
+- you can use several if statements to check to see how many statements are true. switch is a faster alternative to this option
+- switch variable (the word in parenthesis) provides a variable defined outside the loop to be compared against all possible definitions (`case:`s) for the variable (whether the variable is assigned the value 'one', 'two ','three', etc.) whichever case is evaluated true will run its code block
+- data types can be changed. the string `'1'` is converted to a number in: `('1' > 0)`
+- js is said to use weak typing (values can change datatypes). this ability to change can cause problems later on so when checking a value it's best to use strict operators (`===` or `!==` instead of `==` or `!=`)
