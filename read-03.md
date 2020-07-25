@@ -1,0 +1,19 @@
+- ol - creates an ordered list. Unless otherwise stated the browser automatically adds decimal numbers in order from top to bottom at the beginning of each list item.
+- ul - creates unordered list. Unless otherwise stated browser automatically adds bullet points or circles in order from top to bottom at the beginning of each list item.
+- li - creates list item. It's parent element (ol/ul) determines what it will have in front of it unless otherwise stated in css. They appear in the order they are written into HTML.
+- dl - creates definition list. Used to list a series of words (dt) and their definitions (dd).
+- dt - creates a place for a term to be defined in a dl.
+- dd - creates a place to define the word stated in the dt.
+- creating a list branching from a list item can be done by putting a ul/ol inside a list item. This is known as a nested list.
+- width and height can be assigned values of pixels taken up onscreen (px), percent of the parent element (%), or ems meaning the parent element changes based on the size of the text.
+- min-width/min-height describes the minimum size the element can shrink to as the browser is compressed by the user.
+- max-width/max-height describes the max size the window can be stretched to, to fit properly onscreen, as the user expands the browser.
+- overflow tells the browser whether to hide the remaining text (hidden) or add a scroll bar (scroll) if the text is too large for its parent element.
+- from inside out the box contains layers called padding, border and margin. background color only affect padding. color of border and (i'm assuming margin as well) have to be targeted specifically.
+- margin, border and padding size can be targeted entirely with `margin:`, `border` or `padding:` or in specific directions with `margin-top:`, `margin-right:`, `margin-bottom:`, `margin-left:` and the same distinction for border and padding.
+- ^that feature can be used to portray depth^
+- the border can also be styled both as a whole and by top, right, bottom and left with values like solid, dotted, double, etc.
+- if the whole border is to be the same all the way around you can also add several values to the property `border` ( `border: 1px solid black;`)
+- display changes whether an element behaves like a block or an inline element. Maybe I can use inline to make the h1 tag on my site actually center with the images vertically??? nope...
+- block makes an inline element behave like a block, inline block makes a block move to inline while retaining block characteristics.
+- visibility doesn't remove the box of an element but does hide the content with the value set to hidden, while display with a vlue none hides the boc and its content allowing other elements to take it's place
