@@ -1,3 +1,4 @@
+# Read 03
 - ol - creates an ordered list. Unless otherwise stated the browser automatically adds decimal numbers in order from top to bottom at the beginning of each list item.
 - ul - creates unordered list. Unless otherwise stated browser automatically adds bullet points or circles in order from top to bottom at the beginning of each list item.
 - li - creates list item. It's parent element (ol/ul) determines what it will have in front of it unless otherwise stated in css. They appear in the order they are written into HTML.
