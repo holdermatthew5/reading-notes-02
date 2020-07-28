@@ -7,4 +7,17 @@
 - mailto: starts the users email program and adresses an email to the specified email address. This is used in an href attribute of an a tag so it can be labelled however you please and still link to the right email address.
 - target='_blank' attribute to a tag opens link in new window. when doing this the user should be warned that the link will open in a new window.
 - to link to a specific part of the same page use element id in href (href='#elementId'). to link to a specific part of a different site ensure that part has an id and add it to the end of the url in the href after a # (href='www.url.com/example/#elementId').
-- after reading363-364 I thought that in order to fix the text/h1 issue I've been ignoring I could just put it inside a parent element with the element I'm trying to put it next to then target the p/h1 to be centered in the parent element rather than just trying to position them next to eachother without them being connected by anything other than the body or main but then I remembered that they're in the same article. should I maybe put inline-block in the article then try to target p/h1 to center it and the images to align them left? if so how can I align them left? float left?
+- after reading 363-364 I thought that in order to fix the text/h1 issue I've been ignoring I could just put it inside a parent element with the element I'm trying to put it next to then target the p/h1 to be centered in the parent element rather than just trying to position them next to eachother without them being connected by anything other than the body or main but then I remembered that they're in the same article. should I maybe put inline-block in the article then try to target p/h1 to center it and the images to align them left? if so how can I align them left? float left?
+- to make things go into normal flow without any other css affecting it the syntax would be `position: static;` but the browser does this for you automatically unless you specify otherwise.
+- to position things based on the position they would be in normal flow the syntax is:
+```
+selector {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+```
+Here the element is not moved but changing the 0's next to px would change it's position in the direction to the left of the changed 0.
+- position: absolute changes position on screen not affecting other elements at all so they'll appear on top or under the affected element. Does this mean it won't leave its spot even after scrolling? Is this how ads cover content?
