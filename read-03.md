@@ -23,3 +23,33 @@
 - switch variable (the word in parenthesis) provides a variable defined outside the loop to be compared against all possible definitions (`case:`s) for the variable (whether the variable is assigned the value 'one', 'two ','three', etc.) whichever case is evaluated true will run its code block
 - data types can be changed. the string `'1'` is converted to a number in: `('1' > 0)`
 - js is said to use weak typing (values can change datatypes). this ability to change can cause problems later on so when checking a value it's best to use strict operators (`===` or `!==` instead of `==` or `!=`)
+- arrays can contain differing value types, so can one of thoes values be an array? is so, can the nested array have a value equal to the parent array?
+- to change a value in an array reference it as though it were a variable and set it equal to the new value (array[2] = newValue)
+- can set variable equal to boolean by setting it equal to comparison equation
+- falsy values include:
+  - false
+  - 0
+  - empty string
+  - unassigned value
+  - empty value??? is technically assigned a value but the assigned value doesn't have any real meaning or use (10/'string')???
+- truthy values include:
+  - true
+  - 1
+  - full strings
+  - num calculations
+  - true as a tring
+  - 0 as a string
+  - false as a string
+  - object/array
+- if getelementbyid value is found it can return a truthy value (not equal to true just truthy) checks existence of elements on page || can be used
+- undefined and null are relatively equal to eachother but not strictly and are not relatively or strictly equal to anything else
+- you can use logical or when assigning value to a variable. with or the first truthy value will be assigned
+- to minimize processing power usage:
+  - place most likely to be true (for ||) first
+  - place most likely to return false first for &&
+  - place biggest values last when possible
+- for (var i = 0; i < 10; i++) var i = 0; initializes, i < 10 sets a condition and i++ updates the initializer for further review
+- break forces the browser to exit the current loop and proceed to the next piece of code
+- continue tells the loop to continue with that iteration and check the condition again immediately
+- add something that assigns a falsy value to the condition if you get an infinite loop
+- define as much as you resonably can outside loops so they're not recalc everytime it runs
