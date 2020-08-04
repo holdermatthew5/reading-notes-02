@@ -4,3 +4,4 @@
 [Read 03](read-03.md)
 [Read 04](read-04.md)
 [Read 05](read-05.md)
+[Read 06](read-06.md)
