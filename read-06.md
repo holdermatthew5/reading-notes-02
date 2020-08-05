@@ -13,6 +13,7 @@
   - the book says it doesn't but someone in class said this and it worked when ray tried it
 - kind of a thing here... how are we supposed to apply differing tags to each new object/element when it's created dynamically? meaning i dont know of any way to add an id/class/differing object name. I gues we could use a function to add a specific object name:
 ```
-var name = prompt('type name of object');
+object.name = prompt('type name of object');
 ```
   - placed in a form and using a text box instead of `prompt`
+- so there are js tools to change attributesthen?
