@@ -18,12 +18,10 @@
     <td>table data</th>
     <td>table data</th>
   </tr>
+</table>
 ```
 
-- attribute `colspan="2"` added to td tag allows a data block to stretch across 2 columns representing belonging in both. This data block belongs to 2 columns changing the 2 to a 3 would make it belong to 3 columns:
-```
-<td colspan="2">
-```
+- attribute `colspan="2"` added to td tag allows a data block to stretch across 2 columns representing belonging in both. This data block belongs to 2 columns changing the 2 to a 3 would make it belong to 3 columns: `<td colspan="2">`
 
 - The same works for rowspan. The data box would belong to 2 rows and 1 column.
 - column head tags should be kept in a `<thead>` tag, rows should be kept in `<tbody>` tags and results (sum, difference, product, etc) should be kept in `<tfoot>` tag.
