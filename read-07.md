@@ -5,6 +5,7 @@
 - `<th>` - creates a heading for a row or column
 - `<td>` - creates a data block in the row
 - all together used:
+
 ```
 <table>
   <tr>
@@ -34,6 +35,7 @@
 - to change value of an existing key use `car.name = matt;` or `car['name'] = matt;` again where car references the object name, name references the key name and matt is the new value to be assigned. brackets can be used for properties but not methods. leaving the new value an empty string replaces the previous data with an empty string.
 - `delete car.name` removes the chosen property from the chosen object.
 - using this instead of object name in dot notation indicates the following values will be part of the object created by the following constructor function:
+
 ```
 function Hotel(name, rooms, booked) {
   this.name = name;
