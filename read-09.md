@@ -12,7 +12,7 @@
 - `<button>` allows other elements to appear inside a submit button with no input tags like img and p
 - hidden as an input type hides the control for use by developer and not by user. can be seen in sources, but not on page.
 - surround input in label tags to tell the user what to type (username:, age:, password:...). can also be used not surrounding input by putting id value in for attribute. place top or bottom of referenced tag for left or right positioning espectively.
-- fielset tags surround all inputs desired to create surrounding box. legend tags put a name onscreen on the fieldset border line.
+- fieldset tags surround all inputs desired to create surrounding box. legend tags put a name onscreen on the fieldset border line.
 - `required="required"` makes sure the user puts readable info in before doing anything else.
 - date as type creates date box.
 - email as type creates email input box (some browsers put related characters in modified keyboard for user ease).
